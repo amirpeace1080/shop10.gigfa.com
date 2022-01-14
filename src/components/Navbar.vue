@@ -7,14 +7,25 @@
       <nav class="desktop-nav">
         <ul class="menu">
           <li class="menu-item">
-            <a href="#" class="menu-link">Men's Fashion</a>
+            <a href="#" class="menu-link">{{ $t("navbar.men_fashion") }}</a>
           </li>
           <li class="menu-item">
-            <a href="#" class="menu-link">Women's Fashion</a>
+            <a href="#" class="menu-link">{{ $t("navbar.women_ashion") }}</a>
           </li>
-          <li class="menu-item"><a href="#" class="menu-link">Beauty</a></li>
           <li class="menu-item">
-            <a href="#" class="menu-link">Daily Needs</a>
+            <a href="#" class="menu-link">{{ $t("navbar.beauty") }}</a>
+          </li>
+          <li class="menu-item">
+            <a href="#" class="menu-link">{{ $t("navbar.daily_needs") }}</a>
+          </li>
+          <li class="menu-item">
+            <a
+              href="#"
+              class="menu-link-language"
+              @click.prevent="changeLocale"
+            >
+              {{ currentLocale }}
+            </a>
           </li>
         </ul>
       </nav>
@@ -32,19 +43,32 @@
     <div class="slider">
       <img src="./../../public/images/slide.jpg" alt="slider" />
       <div class="slider-text">
-        <h1>Latest Fashion <br />Collection</h1>
+        <h1>
+          {{ $t("navbar.latest_fashion") }} <br />{{ $t("navbar.collection") }}
+        </h1>
         <p>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium
+          {{ $t("navbar.set_ut") }}
         </p>
-        <a href="#">Explore</a>
+        <a href="#">{{ $t("navbar.explore") }}</a>
       </div>
     </div>
   </header>
 </template>
 
 <script>
-export default {};
+export default {
+  name: "Navbar",
+  computed: {
+    currentLocale() {
+      return this.$i18n.locale === "fa" ? "فارسی" : "English";
+    },
+  },
+  methods: {
+    changeLocale() {
+      this.$i18n.locale = this.$i18n.locale === "fa" ? "en" : "fa";
+    },
+  },
+};
 </script>
 
 <style></style>

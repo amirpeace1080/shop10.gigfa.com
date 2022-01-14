@@ -1,0 +1,45 @@
+{
+  "navbar": {
+    "men_fashion": "Men's Fashion",
+    "women_ashion": "Women's Fashion",
+    "beauty": "Beauty",
+    "daily_needs": "Daily Needs",
+    "latest_fashion": "Latest Fashion",
+    "collection": "Collection",
+    "set_ut": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium",
+    "explore": "Explore"
+  },
+  "home": {
+    "latest_products": "Latest Products",
+    "everything_that_new": "Everything that's new",
+    "add_to_cart": "Add to Cart",
+    "quick_view": "Quick View",
+    "ethinik_dresses": "Ethinik Dresses",
+    "active_T_shirts": "Active T-Shirts",
+    "another_T_shirts": "Another T-Shirts",
+    "harpa_T_shirts": "another_T_shirts",
+    "double_clothes": "Double Clothes",
+    "full_T_shirts": "Full T-Shirts",
+    "view_all_items": "view all items",
+    "new_summer": "New arrivals launched on summer",
+    "get_it_now": "get it now",
+    "fetured_products": "Fetured Products",
+    "harpa_dresses": "Harpa Dresses",
+    "new_dresses": "New Dresses",
+    "hot_dresses": "Hot Dresses",
+    "our_amazing_products": "Our Amazing Products",
+    "see_more": "See More..."
+  },
+  "footer": {
+    "subscribe_to_newsletters": "Subscribe to Newsletters",
+    "lorem1": "Lorem ipsum, dolor sit amet consectetur adipisicing elit A minus perspiciatis earum",
+    "lorem2": "officia facere ipsa, mollitia voluptatem debitis amet laudantium sint",
+    "subscribe": "Subscribe",
+    "your_email_address": "Your email address",
+    "about_us": "About us",
+    "faq": "FAQ",
+    "contact_us": "Contact us",
+    "privacy_policy": "Privacy policy",
+    "terms_of_services": "TERMS OF SERVICES"
+  }
+}

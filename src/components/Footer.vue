@@ -2,30 +2,36 @@
   <footer>
     <div class="container">
       <div class="footer-heading">
-        <h3>Subscribe to Newsletters</h3>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. A, minus
-          perspiciatis earum, <br />officia facere ipsa, mollitia voluptatem
-          debitis amet laudantium sint....
-        </p>
+        <h3>{{ $t("footer.subscribe_to_newsletters") }}</h3>
+        <p>{{ $t("footer.lorem1") }} <br />{{ $t("footer.lorem2") }}</p>
       </div>
       <div class="subscribe-button">
         <form action="" method="POST">
-          <input type="email" placeholder="Your email address" />
-          <input type="submit" value="Subscribe" />
+          <input type="email" :placeholder="$t('footer.your_email_address')" />
+          <input type="submit" :value="$t('footer.subscribe')" />
         </form>
       </div>
       <nav>
         <ul class="footer-navbar">
-          <li><a href="#">About us</a></li>
-          <li><a href="#">FAQ</a></li>
-          <li><a href="#">Contact us</a></li>
-          <li><a href="#">Privacy policy</a></li>
-          <li><a href="#">Terms of services</a></li>
+          <li>
+            <a href="#">{{ $t("footer.about_us") }}</a>
+          </li>
+          <li>
+            <a href="#">{{ $t("footer.faq") }}</a>
+          </li>
+          <li>
+            <a href="#">{{ $t("footer.contact_us") }}</a>
+          </li>
+          <li>
+            <a href="#">{{ $t("footer.privacy_policy") }}</a>
+          </li>
+          <li>
+            <a href="#">{{ $t("footer.terms_of_services") }}</a>
+          </li>
         </ul>
       </nav>
       <p class="copyright">
-        Copyright &#x24B8; 2018 Fashion. All Rights Reserved.
+        Copyright &#x24B8; 2022 Fashion. All Rights Reserved.
       </p>
     </div>
   </footer>

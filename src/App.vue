@@ -26,8 +26,8 @@ export default {
 @import url("./assets/css/footer.css");
 @import url("./assets/css/media.css");
 
-/* body{
-    height: 100%;
-    font-family: "Myriad Pro";
-} */
+html,
+body {
+  font-family: Vazir, sans-serif;
+}
 </style>
